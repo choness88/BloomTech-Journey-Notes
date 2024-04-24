@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      h1 {
+        border: 2px dotted mediumpurple;
+        border-radius: 7px 50px;
+        background-color: lightblue;
+        text-align: center;
+        padding: 30px;
+        width: max-content;
+        height: auto;
+        box-shadow: 5px 5px 10px darkgrey;
+      }
+
+      table, th, td {
+        border: 1px solid black;
+        width: auto;
+        padding: 5px 5px 2px 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <center><h1>My Bloomtech learning journey!!</h1></center>
+
+    <div container>
+      <h2>Notes for Arrays</h2>
+      <table>
+        <tr>
+          <th>Format</th>
+          <th>Result</th>
+        </tr>
+        <tr>
+          <td>array.length</td>
+          <td>counts how many characters in</td>
+        <tr>
+            <td>array[array.length-1]</td>
+            <td>gets the element of the character specified by the number listed</td>
+        </tr>
+        <tr>
+            <td>const sample = []; <br>
+                sample[sample.length] = 'yum';</td>
+            <td>adds elements to end of array. brackets can be filled or empty</td>
+        </tr>
+        </tr>
+      </table>
+      
+    </div>
+
+    <script>
+      const favFoods = [];
+      favFoods[favFoods.length] = "lumpia";
+      favFoods[favFoods.length] = "fried rice";
+      favFoods[favFoods.length] = "fried chicken";
+      favFoods[favFoods.length] = "no sweets!! I wish";
+
+      console.log(favFoods);
+
+      const daysOfWeek = [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+      ];
+      daysOfWeek[daysOfWeek.length] = "saturday";
+      daysOfWeek[daysOfWeek.length] = "sunday";
+
+      console.log(daysOfWeek);
+    </script>
+  </body>
+</html>
